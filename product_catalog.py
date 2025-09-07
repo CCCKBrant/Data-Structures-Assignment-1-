@@ -72,4 +72,9 @@ for name, match_count in recommended:
 
 # DESIGN MEMO (write below in a comment):
 # 1. What core operations did you use (e.g., intersections, loops)? Why?
+# I used loops because to count the matches between the customer preference and tags, it would have to loop through the products to then print the matches, and how many matches were found. 
 # 2. How might this code change if you had 1000+ products?
+# I am not sure it would change that much, because the only thing I would worry about is duplicates popping up under the customer tags, and then it would output thousands of product reccomendations, but since we already used sets to delete the duplicates, I don't see the code changing. But, if we were provided more information like ratings of the product, then we could provide the top rated recommendations based on the customer preference. 
+
+#SIDE NOTE: I used ChatGPT to help me complete this assignment, I walked through it once with ChatGPT stepping me through it, then I tried it a second time on my own (which is the version I am submitting). I am still a little unsure how the code works at places, but I will be spending more time studying lists and sets, then using loops to provide specific recommendations based on input. 
+
